@@ -23,7 +23,8 @@ Program to implement univariate Linear Regression to fit a straight line using l
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
-
+```
+```
 # Sample data (X = input, y = output)
 X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
 y = np.array([2, 4, 5, 4, 5])
